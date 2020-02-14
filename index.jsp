@@ -1,18 +1,12 @@
 <html>
 <head><title>First JSP</title></head>
 <body>
-  <%
-    double num = Math.random();
-    if (num > 0.65) {
-  %>
-      <h2>You'll have a luck day!</h2><p>(<%= num %>)</p>
-  <%
-    } else {
-  %>
-      <h2>Well, life goes on ... </h2><p>(<%= num %>)</p>
-  <%
-    }
-  %>
-  <a href="<%= request.getRequestURI() %>"><h3>Try Again</h3></a>
+
+      <h2>Hello Biran and Ortal</h2>
+
+      <h3>check if you'll have a lucky day</h3>
+
+  <a href="Https://www.pais.co.il/"><h3>Click here!</h3></a>
+  
 </body>
 </html>
